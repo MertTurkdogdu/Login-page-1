@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" id="HTML" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="login-box">
+      <h1>Login</h1>
+
+      <input class="username-input" type="text" placeholder="Username" />
+
+      <input class="pass-input" type="text" placeholder="Password" />
+
+      <div class="checkboxes">
+        <label><input type="checkbox" /> Remember me</label>
+        <a href="#">Forgot Password ?</a>
+      </div>
+      <button class="login-button">Login</button>
+
+      <div class="register">
+        <p>Don't have an account ? <a href="#">Register</a></p>
+      </div>
+      <div class="mode-container">
+        <p id="p-light">Light</p>
+        <label class="switch">
+          <input id="mode-checkbox" type="checkbox" onclick="checkClick()">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
